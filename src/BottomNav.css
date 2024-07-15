@@ -1,0 +1,19 @@
+.bottom-nav .nav-card {
+    color: white;
+    border: none;
+    background-color: #333;
+    padding: 10px 0;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .bottom-nav .nav-card:hover {
+    background-color: #444;
+  }
+  
+  .bottom-nav .nav-card.active {
+    background-color: #555;
+    color: white;
+  }
+  
+  

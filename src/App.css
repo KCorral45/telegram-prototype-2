@@ -1,0 +1,63 @@
+.app {
+  background-color: #1c1c1e;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.top-bar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.profit-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.profit-icon {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.settings-icon {
+  margin-left: 10px;
+}
+
+.rewards .card {
+  background-color: #444;
+  color: white;
+}
+
+.balance {
+  margin: 20px 0;
+}
+
+.character img {
+  width: 100px;
+  height: 100px;
+}
+
+.energy {
+  margin: 20px 0;
+}
+
+.bottom-nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+
