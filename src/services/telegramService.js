@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const TELEGRAM_BOT_TOKEN = '7210721763:AAEOFEho3Gbt1twSG1HEfvozePToZ9dXm1c';
+const TELEGRAM_BOT_TOKEN = process.env.VITE_TELEGRAM_BOT_TOKEN;
 const TELEGRAM_API_URL = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}`;
 
 export const sendMessage = async (chatId, text) => {
