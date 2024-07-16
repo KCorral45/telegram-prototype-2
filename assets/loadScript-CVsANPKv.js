@@ -1,0 +1,1 @@
+const n=e=>new Promise((o,t)=>{const r=document.createElement("script");r.src=e,r.async=!0,r.onload=()=>o(r),r.onerror=()=>t(new Error(`Failed to load script: ${e}`)),document.body.appendChild(r)});export{n as loadScript};
